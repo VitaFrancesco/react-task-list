@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ol,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 20px 0;
+}
+
+section {
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
