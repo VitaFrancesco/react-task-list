@@ -17,7 +17,14 @@ function App() {
           <h2>Current Tasks</h2>
           <ul>
             {currentTasks.map((el, id) => (
-              <li key={el.id}>{el.title}</li>
+              <li key={el.id}>
+                <div className='headerTask'>
+                  <h5>{el.title}</h5>
+                  <div className='stateTasks'>{el.state}</div>
+                </div>
+                <p>Priority: {el.priority}</p>
+                <p>Est. Time {el.estimatedTime}</p>
+              </li>
             ))}
           </ul>
         </section>
@@ -26,7 +33,14 @@ function App() {
           <h2>Completed Tasks</h2>
           <ul>
             {completedTasks.map((el, id) => (
-              <li key={el.id}>{el.title}</li>
+              <li key={el.id}>
+                <div className='headerTask'>
+                  <h5>{el.title}</h5>
+                  <div className='stateTasks'>{el.state}</div>
+                </div>
+                <p>Priority: {el.priority}</p>
+                <p>Est. Time {el.estimatedTime}</p>
+              </li>
             ))}
           </ul>
         </section>
