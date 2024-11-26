@@ -1,3 +1,4 @@
+/* reset rules */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +20,7 @@ ul {
   text-decoration: none;
 }
 
+/* project rules */
 .container {
   max-width: 1300px;
   width: 95%;
@@ -32,37 +34,4 @@ header {
 
 section {
   padding: 20px 0;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-.stateTasks {
-  padding: 5px 10px;
-  background-color: rgb(205, 76, 28);
-  color: white;
-}
-
-.headerTask {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-}
-
-ul {
-  margin-top: 22px;
-}
-
-li:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-li p:not(:last-child) {
-  margin-bottom: 5px;
 }
